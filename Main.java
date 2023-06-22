@@ -128,7 +128,7 @@ public class Main{
 
         /* 
 
-        if(arr[arr.length-1]<9){
+        if(arr[arr.length-1]<9 && arr.length < 2){
             arr[arr.length-1] += 1;
             return arr;
         }
