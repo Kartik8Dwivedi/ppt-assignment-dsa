@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.music-player {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .player-controls button {
+    margin: 5px;
+  }
+  
+  .current-track {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin-top: 20px;
+  }
+  
+  .progress {
+    width: 0;
+    height: 100%;
+    background-color: #007bff;
+  }
+  
