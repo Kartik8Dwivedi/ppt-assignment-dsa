@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    padding-left: 75px;
+}
+table{
+    border: none;
+    border-spacing: 8px;
+    
+}
+td{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: large; 
+}
+th{
+    border: none;
+    font-size: large;
+}
+.asterisk{
+    border: none;
+    height: 50px;
+    width: 10px;
+    
+}
