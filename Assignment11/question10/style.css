@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1F1F1F;
+    color: white;
+}
+.wrapper{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body p {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.container{
+    width: 90vw;
+    height: auto;
+    border: 2px solid white;
+    overflow: scroll;
+}
+.row1{
+    display: flex;
+    height: 35px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.name{
+    width: 30%;
+    min-width: 300px;
+}
+.email{
+    width: 50%;
+    min-width: 500px;
+}
+.phone{
+    width: 20%;
+    min-width: 200px;
+}
