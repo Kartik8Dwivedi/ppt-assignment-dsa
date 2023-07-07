@@ -1,0 +1,102 @@
+nav{
+    /* border: 1px solid black; */
+    background-color: rgb(65, 65, 64);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+ul{
+    display: flex;
+    gap: 10%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nThree{
+    margin-right: 2%;
+}
+.nBtn{
+    font-weight: 800;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.nBtn:hover{
+    cursor: pointer;
+}
+.logo{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+}
+h2{
+    font-weight: 900;
+}
+h1{
+    color: rgb(85, 152, 240);
+    font-size: 3em;
+}
+.p1{
+    color: rgb(85, 152, 240);
+    font-weight: 600;
+    font-size: 20px;
+}
+.mainLeft{
+    /* margin-right: 200px; */
+    gap: 2.5%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.p2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.applyImg:hover{
+   cursor: pointer;
+}
+/* .mainRight{
+    height: 10%;
+} */
+
+@media screen and (max-width: 600px) {
+   .main{
+    flex-direction: column;
+   }
+   nav{
+    width: 100vw;
+   }
+   .fDiv1{
+    color: black;
+    background-color: white;
+   }
+   .fDiv2{
+    color: black;
+    background-color: white;
+   }
+   
+  }
+
+  .footer{
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+    background-color: #161313;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .noHidden{
+    color: rgb(45, 123, 239);
+  }
